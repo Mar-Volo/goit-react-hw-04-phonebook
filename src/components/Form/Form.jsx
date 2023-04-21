@@ -19,7 +19,7 @@ export const ContactForm = ({ addContact }) => {
     }
   };
   //or
-  // name === 'name' ? setName(value) : setNumber(value);
+  /// name === 'name' ? setName(value) : setNumber(value);
 
   const handleSubmit = e => {
     e.preventDefault();
